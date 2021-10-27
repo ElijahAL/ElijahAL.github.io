@@ -1,0 +1,117 @@
+
+
+
+body {
+  background-color: rgb(100, 189, 213);
+  margin:0;
+  font-family: "EB Garamond"
+}
+
+header {
+  background-color: blue;
+  color:white;
+
+}
+
+header h1 {
+  padding:30px
+}
+
+
+  nav {
+    background-color:rgb(177, 242, 254);
+  }
+
+
+  main {
+    background-color: white;
+    padding: 30px;
+  }
+
+
+
+  article {
+    background-color: blue;
+    width: 80%
+    margin: 30px auto;
+    border-radius: 10px;
+    border: 5px solid blue;
+    font-family:
+  }
+
+
+
+  footer {
+    background-color: blue;
+    color:white;
+    padding:30px;
+  }
+
+
+/*navbar */
+.navbar {
+  list-style-type: none;
+}
+
+.navbar li {
+  display: inline-block;
+  padding:20px 10px 20px 0px;
+}
+
+.navbar a{
+  color:purple;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color:red;
+}
+
+/*article divs */
+
+  .article_header {
+    color:white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .article_content {
+    background-color: white;
+    padding: 10px;
+    color:blue;
+  }
+
+  .article_footer {
+    color:white;
+    padding:10px;
+  }
+
+.article_image{
+  width: 80%;
+  margin:auto;
+  margin-top: 10px;
+  display:block;
+
+}
+.article_background {
+  background-image: url('../assets/paint.jpg');
+  background-size:contain;
+  background-position: center;
+  background-repeat;
+}
+
+
+
+/* typography spans */
+
+.bolden {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+#small_text{
+    font-size: 10pt;
+}
