@@ -2,13 +2,13 @@
 
 
 body {
-  background-color: rgb(100, 189, 213);
+  background-color: rgb(orange);
   margin:0;
   font-family: "EB Garamond"
 }
 
 header {
-  background-color: blue;
+  background-color: orange;
   color:white;
 
 }
@@ -19,7 +19,7 @@ header h1 {
 
 
   nav {
-    background-color:rgb(177, 242, 254);
+    background-color:orange;
   }
 
 
@@ -31,18 +31,18 @@ header h1 {
 
 
   article {
-    background-color: blue;
+    background-color: gold;
     width: 80%
     margin: 30px auto;
     border-radius: 10px;
-    border: 5px solid blue;
+    border: 5px solid green;
     font-family:
   }
 
 
 
   footer {
-    background-color: blue;
+    background-color: green;
     color:white;
     padding:30px;
   }
@@ -94,7 +94,7 @@ header h1 {
 
 }
 .article_background {
-  background-image: url('../assets/paint.jpg');
+  
   background-size:contain;
   background-position: center;
   background-repeat;
