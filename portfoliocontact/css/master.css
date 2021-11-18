@@ -1,25 +1,32 @@
+*{margin:0;
+}
 
 
 
 body {
-  background-color: rgb(orange);
+  background-color: rgb(100, 189, 213);
   margin:0;
   font-family: "EB Garamond"
 }
 
 header {
-  background-color: orange;
+  background-color: rgb(254, 202, 254);
   color:white;
 
 }
 
+  Title{
+
+  }
+
 header h1 {
   padding:30px
+
 }
 
 
   nav {
-    background-color:orange;
+    background-color:rgb(177, 242, 254);
   }
 
 
@@ -28,22 +35,27 @@ header h1 {
     padding: 30px;
   }
 
-
+  section{
+    display:flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+  }
 
   article {
-    background-color: gold;
-    width: 80%
-    margin: 30px auto;
+    background-color: rgb(177, 242, 254);
+    width: 20%;
+    margin: 30px 20px;
     border-radius: 10px;
-    border: 5px solid green;
-    font-family:
+    border: 5px solid blue;
+    box-sizing: border-box;
+
   }
 
 
 
   footer {
-    background-color: green;
-    color:white;
+    background-color: rgb(177, 242, 254);
+    color:purple;
     padding:30px;
   }
 
@@ -70,13 +82,13 @@ header h1 {
 /*article divs */
 
   .article_header {
-    color:white;
+    color:purple;
     padding: 10px;
     text-align: center;
   }
 
   .article_content {
-    background-color: white;
+    background-color: rgb(177, 242, 254);
     padding: 10px;
     color:blue;
   }
@@ -84,7 +96,13 @@ header h1 {
   .article_footer {
     color:white;
     padding:10px;
+
   }
+
+.article_footer a{
+  color:purple;
+  text-decoration: none;
+}
 
 .article_image{
   width: 80%;
@@ -94,10 +112,9 @@ header h1 {
 
 }
 .article_background {
-  
-  background-size:contain;
+  background-image: url('../assets/paint.jpg');
   background-position: center;
-  background-repeat;
+  background-size: cover;
 }
 
 
